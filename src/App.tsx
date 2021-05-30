@@ -5,9 +5,11 @@ import Loading from "./components/Loading";
 import NavBar from "./components/NavBar";
 
 const IndexPage = React.lazy(() => import("./pages/IndexPage"));
+const IntroPage = React.lazy(() => import("./pages/IntroPage"));
 
 const routes = [
   { path: "/", Component: IndexPage },
+  { path: "/introduction", Component: IntroPage },
 ];
 
 const App = () => (

@@ -6,7 +6,7 @@ import { MenuIcon, XIcon } from "@heroicons/react/outline";
 import logo from "../../logo.png";
 
 const navigation = [
-  { name: "Introduction", path: "#" },
+  { name: "Introduction", path: "/introduction" },
   { name: "Analytics and Data", path: "#" },
   { name: "Privacy", path: "#" },
   { name: "Other things", path: "#" },

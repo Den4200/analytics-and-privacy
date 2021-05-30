@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 import topRightImage from "./top-right.svg";
 import bottomLeftImage from "./bottom-left.svg";
 import sampleMetrics from "./sample-metrics.png";
@@ -29,9 +31,11 @@ const IndexPage = () => (
       </div>
 
       <div className="flex justify-center items-center mb-10 sm:mb-20">
-        <button className="hover:bg-white hover:text-indigo-600 hover:border-indigo-600 bg-transparent transition duration-150 ease-in-out focus:outline-none hover:bg-indigo-700-800 rounded border border-white text-white px-4 sm:px-8 py-1 sm:py-3 text-sm">
-          Introduction
-        </button>
+        <Link to="/introduction">
+          <button className="hover:bg-white hover:text-indigo-600 hover:border-indigo-600 bg-transparent transition duration-150 ease-in-out focus:outline-none hover:bg-indigo-700-800 rounded border border-white text-white px-4 sm:px-8 py-1 sm:py-3 text-sm">
+            Introduction
+          </button>
+        </Link>
         <button className="hover:bg-white hover:text-indigo-600 hover:border-indigo-600 ml-3 sm:ml-6 bg-transparent transition duration-150 ease-in-out focus:outline-none hover:bg-indigo-700-800 rounded border border-white text-white px-4 sm:px-8 py-1 sm:py-3 text-sm">
           Something?
         </button>
