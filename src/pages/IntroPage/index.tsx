@@ -22,8 +22,14 @@ const IndexPage = () => {
         body="We only collect a few terabytes of data on each user, which is essential to the functions of our services."
         submitText="I accept"
         closeText="I do not accept"
-        onClose={() => setIsOpen0(true)}
-        onSubmit={() => setIsOpen1(true)}
+        onClose={() => {
+          setIsOpen(false);
+          setIsOpen0(true);
+        }}
+        onSubmit={() => {
+          setIsOpen(false);
+          setIsOpen1(true);
+        }}
       />
 
       <Modal
@@ -34,8 +40,14 @@ const IndexPage = () => {
         body="We only store your data in encrypted, secure databases, protected from hackers."
         submitText="I accept (Strongly recommended)"
         closeText="I do not accept (Not recommended at all)"
-        onClose={() => setIsOpen00(true)}
-        onSubmit={() => setIsOpen1(true)}
+        onClose={() => {
+          setIsOpen0(false);
+          setIsOpen00(true);
+        }}
+        onSubmit={() => {
+          setIsOpen0(false);
+          setIsOpen1(true);
+        }}
       />
 
       <Modal
@@ -46,7 +58,10 @@ const IndexPage = () => {
         body="If you do not accept our privacy policy, we must sell your data to third-party companies in order to compensate for profit losses."
         submitText="I accept (Very strongly recommended)"
         closeText="I do not accept (Strongly advised against)"
-        onSubmit={() => setIsOpen1(true)}
+        onSubmit={() => {
+          setIsOpen00(false);
+          setIsOpen1(true);
+        }}
       />
 
       <Modal
@@ -57,7 +72,10 @@ const IndexPage = () => {
         body="Please accept our cookies so that we can track your every move across the internet."
         submitText="I accept (Recommended)"
         closeText="I do not accept (Not recommended)"
-        onClose={() => setIsOpen10(true)}
+        onClose={() => {
+          setIsOpen1(false);
+          setIsOpen10(true);
+        }}
       />
 
       <Modal
@@ -68,7 +86,10 @@ const IndexPage = () => {
         body="We only store your data in encrypted, secure databases, protected from hackers."
         submitText="I accept (Strongly recommended)"
         closeText="I do not accept (Not recommended at all)"
-        onClose={() => setIsOpen100(true)}
+        onClose={() => {
+          setIsOpen10(false);
+          setIsOpen100(true);
+        }}
       />
 
       <Modal
