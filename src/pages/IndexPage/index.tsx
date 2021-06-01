@@ -38,7 +38,7 @@ const IndexPage = () => (
       </div>
     </div>
 
-    <div className="container mx-auto flex justify-center md:-mt-64 -mt-24 sm:-mt-48">
+    <div className="container mx-auto flex justify-center lg:-mt-64 md:-mt-56 sm:-mt-48 -mt-24">
       <div className="relative sm:w-2/3 w-11/12">
         <img src={sampleMetrics} alt="" className="absolute" />
       </div>
