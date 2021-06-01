@@ -6,7 +6,32 @@ module.exports = {
     extend: {},
   },
   variants: {},
-  plugins: [],
+  plugins: [
+    ({ addComponents }) => {
+      addComponents({
+        ".content-container": {
+          maxWidth: "100%",
+          "@screen sm": {
+            maxWidth: "600px",
+          },
+          "@screen md": {
+            maxWidth: "700px",
+          },
+          "@screen lg": {
+            maxWidth: "800px",
+          },
+          "@screen xl": {
+            maxWidth: "900px",
+          },
+        },
+        "blockquote": {
+          borderLeft: "3px solid #ccc",
+          margin: "10px 20px",
+          padding: "0 10px",
+        }
+      });
+    },
+  ],
   purge: {
     // Filenames to scan for classes
     content: [
