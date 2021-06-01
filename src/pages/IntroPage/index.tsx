@@ -113,8 +113,8 @@ const IndexPage = () => {
         <h2 className="text-2xl font-bold mb-2">Introduction</h2>
         <p className="text-lg">
           Did you accept our absurd privacy policy and allow us to use cookies? I sure hope not,
-          even after all the persistent nagging and empty threats. Now, of course, those modals
-          were not at all genuine, as they were only there to serve one simple point: companies are
+          even after all the incessant nagging and empty threats. Now, of course, those modals were
+          not at all genuine, as they were only there to serve one simple point: companies are
           desperate for your data.
         </p>
 
