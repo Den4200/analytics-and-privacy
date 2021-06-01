@@ -7,8 +7,8 @@ import logo from "../../logo.png";
 
 const navigation = [
   { name: "Introduction", path: "/introduction" },
-  { name: "Analytics and Data", path: "#" },
-  { name: "Privacy", path: "#" },
+  { name: "Analytics and Data", path: "/analytics-and-data" },
+  { name: "Privacy", path: "/privacy" },
   { name: "Other things", path: "#" },
 ];
 
