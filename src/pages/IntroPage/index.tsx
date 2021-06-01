@@ -1,6 +1,7 @@
 import { useState } from "react";
 
 import Modal from "../../components/Modal";
+import dataAnalysisImage from "./data-analysis.png";
 
 const IndexPage = () => {
   const [isOpen, setIsOpen] = useState(true);
@@ -102,9 +103,33 @@ const IndexPage = () => {
         closeText="I do not accept (Strongly advised against)"
       />
 
-      <div className="mt-8 ml-12">
-        <h1 className="text-3xl font-bold">Introduction</h1>
-        <p>We have stolen your data and sold it off to Facebook.</p>
+      <div className="content-container mx-auto px-8 mt-8">
+        <h1 className="text-3xl font-bold mb-4">User Analytics and Data vs. Privacy</h1>
+
+        <hr />
+        <img src={dataAnalysisImage} alt="" />
+        <hr className="mb-4" />
+
+        <h2 className="text-2xl font-bold mb-2">Introduction</h2>
+        <p className="text-lg">
+          Did you accept our absurd privacy policy and allow us to use cookies? I sure hope not,
+          even after all the persistent nagging and empty threats. Now, of course, those modals
+          were not at all genuine, as they were only there to serve one simple point: companies are
+          desperate for your data.
+        </p>
+
+        <h2 className="text-2xl font-bold mt-8 mb-2">Purpose</h2>
+        <p className="text-lg mb-16">
+          I created this website to share my findings from the research I have done to answer one
+          question:
+          <blockquote className="text-base">
+            To what degree should user analytics and data be used to improve end-user experience in
+            consideration of privacy?
+          </blockquote>
+          The conclusion I have come to is quite interesting, as it actually contradicts with the
+          name of my chosen topic, seen at the top of this page. I will explain what this means in
+          the coming pages.
+        </p>
       </div>
     </>
   );
