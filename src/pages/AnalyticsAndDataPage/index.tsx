@@ -29,9 +29,37 @@ const AnalyticsAndDataPage = () => (
       design and improve UX.
     </p>
 
-    <h2 className="text-2xl font-bold mt-8 mb-2">Data</h2>
+    <h2 className="text-2xl font-bold mt-8 mb-2">What is data?</h2>
     <p className="text-lg">
-      Stuff about data!
+      Data, in our use case here, is information about users of a particular product or service.
+      There are three different types of data: explicit, implicit, and third-party.
+    </p>
+    <h3 className="text-xl font-bold mt-4">Explicit Data</h3>
+    <p className="text-lg">
+      Explicit data refers to data that was given by a user directly. This includes "preferences,
+      personally identifiable information (PII) like name, mailing address, email, social accounts,
+      billing data, and more" (Ellingwood). PII can be a major issue for privacy, as it is
+      information that can directly identify an individual from others.
+    </p>
+    <h3 className="text-xl font-bold mt-4">Implicit Data</h3>
+    <p className="text-lg">
+      Implicit data is not provided by users directly. Instead, it is "gleaned by collecting and
+      analyzing data from user interactions or from existing explicit data" (Ellingwood). For
+      example, a streaming service could collect information about when you watch their content,
+      what type of content you watch, and what quality you are watching the content at. This
+      implicit data would be very useful for those companies, as it would allow them to learn a lot
+      about your watching habits, among other things.
+    </p>
+    <h3 className="text-xl font-bold mt-4">Third-Party Data</h3>
+    <p className="text-lg mb-8">
+      Third-party data consists of data acquired from external parties. This data "may have been
+      gathered explicitly or implicitly originally, but your organization's relationship to the
+      data is filtered by another entity that has offered access to the information" (Ellingwood).
+      This type of data can be especially useful for companies who are trying to go beyond its
+      usual audience, but it also causes the largest concern for privacy. A large percentage of
+      data breaches are linked back to third-party data. There can also be no transparency on how
+      the third-party data was collected, and companies who use it may be put at risk of breaching
+      data privacy regulations.
     </p>
   </div>
 );
