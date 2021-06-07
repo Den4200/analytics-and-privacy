@@ -1,8 +1,10 @@
+import analyticsAndDataImage from "./analytics-and-data.png";
+
 const AnalyticsAndDataPage = () => (
   <div className="content-container mx-auto px-8 mt-8">
     <h1 className="text-3xl font-bold mb-4">User Analytics and Data</h1>
     <hr />
-    <img src="https://blog.addthiscdn.com/wp-content/uploads/2018/06/19143007/What-are-Web-Analytics-The-Data-You-Need-to-Succeed.png" alt="" />
+    <img src={analyticsAndDataImage} alt="" />
     <hr className="mb-4" />
 
     <h2 className="text-2xl font-bold mb-2">Analytics</h2>
