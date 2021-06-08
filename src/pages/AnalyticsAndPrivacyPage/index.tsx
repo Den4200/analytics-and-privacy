@@ -54,8 +54,7 @@ const AnalyticsAndPrivacyPage = () => (
       that no privacy will be breached.
     </p>
 
-    <h3 className="text-xl font-bold mt-4 mb-2">Strategies and tools to safeguard privacy</h3>
-    <p className="text-lg mb-8">
+    <p className="text-lg mt-4 mb-8">
       One of the most widely recognized proactive approaches to privacy is Privacy by Design (PbD).
       It was a framework created in the 1990s in response to the need of balancing analytics and
       data with privacy. PbD is endorsed by many authorities all over the world, "[including] the
