@@ -9,6 +9,7 @@ const navigation = [
   { name: "Introduction", path: "/introduction" },
   { name: "Analytics and Data", path: "/analytics-and-data" },
   { name: "Privacy", path: "/privacy" },
+  { name: "Analytics and Data & Privacy", path: "/analytics-and-privacy" },
   { name: "Other things", path: "#" },
 ];
 
