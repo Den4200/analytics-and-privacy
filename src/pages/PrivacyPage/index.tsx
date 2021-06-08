@@ -45,7 +45,8 @@ const PrivacyPage = () => (
       <a href="https://www.oyez.org/cases/1964/496" className="italic hover:underline">
         Griswold v. Connecticut
       </a>
-      . As seen, privacy reaches far and wide, and has been a large area of issue for many decades.
+      . As shown, privacy reaches far and wide, and has been a large area of issue for many
+      decades.
     </p>
 
     <h2 className="text-2xl font-bold mt-8 mb-2">Privacy in relation to data</h2>
@@ -63,7 +64,7 @@ const PrivacyPage = () => (
 
     <p className="text-lg mb-4">
       Privacy, especially in relation to data, is very important to individuals all around the
-      world. Here are some statistics about privacy.
+      world. Here are some statistics about privacy which prove this to be true (Cavoukian).
     </p>
 
     <Chart
