@@ -9,9 +9,11 @@ const navigation = [
   { name: "Introduction", path: "/introduction" },
   { name: "Analytics and Data", path: "/analytics-and-data" },
   { name: "Privacy", path: "/privacy" },
-  { name: "Analytics and Data & Privacy", path: "/analytics-and-privacy" },
-  { name: "Analytics and Data vs. Privacy", path: "/analytics-vs-privacy" },
-  { name: "Other things", path: "#" },
+  { name: "BLOCK", path: "#" },
+  { name: "&", path: "/analytics-and-privacy" },
+  { name: "vs", path: "/analytics-vs-privacy" },
+  { name: "BLOCK", path: "#" },
+  { name: "Conclusion", path: "#" },
 ];
 
 const NavBar = () => (
@@ -41,16 +43,20 @@ const NavBar = () => (
               </Link>
 
               <div className="hidden sm:block sm:ml-6">
-                <div className="flex space-x-4">
-                  {navigation.map((item) => (
-                    <Link
-                      key={item.name}
-                      to={item.path}
-                      className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-                    >
-                      {item.name}
-                    </Link>
-                  ))}
+                <div className="flex">
+                  {navigation.map((item) =>
+                    item.name === "BLOCK" ? (
+                      <div className="border-l border-solid border-gray-400 m-2" />
+                    ) : (
+                      <Link
+                        key={item.name}
+                        to={item.path}
+                        className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 ml-2 mr-2 rounded-md text-sm font-medium"
+                      >
+                        {item.name}
+                      </Link>
+                    )
+                  )}
                 </div>
               </div>
             </div>
@@ -60,15 +66,19 @@ const NavBar = () => (
         {/* Mobile menu */}
         <Disclosure.Panel className="sm:hidden">
           <div className="px-2 pt-2 pb-3 space-y-1">
-            {navigation.map((item) => (
-              <Link
-                key={item.name}
-                to={item.path}
-                className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
-              >
-                {item.name}
-              </Link>
-            ))}
+            {navigation.map((item) =>
+              item.name === "BLOCK" ? (
+                <hr className="border-gray-400 ml-2 mr-2" />
+              ) : (
+                <Link
+                  key={item.name}
+                  to={item.path}
+                  className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+                >
+                  {item.name}
+                </Link>
+              )
+            )}
           </div>
         </Disclosure.Panel>
       </>
