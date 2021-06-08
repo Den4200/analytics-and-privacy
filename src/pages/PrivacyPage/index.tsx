@@ -78,7 +78,7 @@ const PrivacyPage = () => (
         title: "Those who worry about their privacy online",
         legend: "none",
         pieStartAngle: 21,
-        tooltip: { trigger: 'none' },
+        tooltip: { trigger: "none" },
         slices: {
           0: { color: "blue" },
           1: { color: "grey" },
@@ -99,7 +99,7 @@ const PrivacyPage = () => (
           "Those who avoid doing business with companies that they believe do not protect their privacy",
         legend: "none",
         pieStartAngle: 33,
-        tooltip: { trigger: 'none' },
+        tooltip: { trigger: "none" },
         slices: {
           0: { color: "blue" },
           1: { color: "grey" },
@@ -119,7 +119,7 @@ const PrivacyPage = () => (
         title: "Those who do not trust companies with their personal information",
         legend: "none",
         pieStartAngle: 0,
-        tooltip: { trigger: 'none' },
+        tooltip: { trigger: "none" },
         slices: {
           0: { color: "blue" },
           1: { color: "grey" },
