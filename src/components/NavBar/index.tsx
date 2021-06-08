@@ -10,6 +10,7 @@ const navigation = [
   { name: "Analytics and Data", path: "/analytics-and-data" },
   { name: "Privacy", path: "/privacy" },
   { name: "Analytics and Data & Privacy", path: "/analytics-and-privacy" },
+  { name: "Analytics and Data vs. Privacy", path: "/analytics-vs-privacy" },
   { name: "Other things", path: "#" },
 ];
 
