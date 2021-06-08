@@ -9,6 +9,7 @@ const IntroPage = React.lazy(() => import("./pages/IntroPage"));
 const AnalyticsAndDataPage = React.lazy(() => import("./pages/AnalyticsAndDataPage"));
 const PrivacyPage = React.lazy(() => import("./pages/PrivacyPage"));
 const AnalyticsAndPrivacy = React.lazy(() => import("./pages/AnalyticsAndPrivacyPage"));
+const AnalyticsVsPrivacy = React.lazy(() => import("./pages/AnalyticsVsPrivacy"));
 
 const routes = [
   { path: "/", Component: IndexPage },
@@ -16,6 +17,7 @@ const routes = [
   { path: "/analytics-and-data", Component: AnalyticsAndDataPage },
   { path: "/privacy", Component: PrivacyPage },
   { path: "/analytics-and-privacy", Component: AnalyticsAndPrivacy },
+  { path: "/analytics-vs-privacy", Component: AnalyticsVsPrivacy },
 ];
 
 const App = () => (
