@@ -10,7 +10,7 @@ const AnalyticsAndPrivacyPage = () => (
     <h2 className="text-2xl font-bold mb-2">A world with analytics and data alongside privacy</h2>
     <p className="text-lg">
       While analytics and data are considered the new oil of the economy, privacy concerns can
-      limit their use. This leads to a "a widespread sense that data analytics and privacy are
+      limit their use. This leads to "a widespread sense that data analytics and privacy are
       contradictory", but in reality, "firms can implement a wide range of methods that satisfy
       different degrees of privacy and still enable them to leverage varied data analytics methods"
       (Wieringa 1). Some say that analytics and data challenge fundamental privacy protections,
