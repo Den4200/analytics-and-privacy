@@ -53,6 +53,14 @@ const AboutPage = () => (
           Metabase
         </a>
         ,{" "}
+        <a
+          href="https://redash.io/"
+          className="hover:underline"
+          style={{ color: "#14b89e" }}
+        >
+          Redash
+        </a>
+        ,{" "}
         <a href="https://sentry.io/" className="hover:underline" style={{ color: "#14b89e" }}>
           Sentry
         </a>
