@@ -8,8 +8,8 @@ const IndexPage = React.lazy(() => import("./pages/IndexPage"));
 const IntroPage = React.lazy(() => import("./pages/IntroPage"));
 const AnalyticsAndDataPage = React.lazy(() => import("./pages/AnalyticsAndDataPage"));
 const PrivacyPage = React.lazy(() => import("./pages/PrivacyPage"));
-const AnalyticsAndPrivacy = React.lazy(() => import("./pages/AnalyticsAndPrivacyPage"));
-const AnalyticsVsPrivacy = React.lazy(() => import("./pages/AnalyticsVsPrivacy"));
+const AnalyticsAndPrivacyPage = React.lazy(() => import("./pages/AnalyticsAndPrivacyPage"));
+const AnalyticsVsPrivacyPage = React.lazy(() => import("./pages/AnalyticsVsPrivacy"));
 const ConclusionPage = React.lazy(() => import("./pages/ConclusionPage"));
 const AboutPage = React.lazy(() => import("./pages/AboutPage"));
 
@@ -18,8 +18,8 @@ const routes = [
   { path: "/introduction", Component: IntroPage },
   { path: "/analytics-and-data", Component: AnalyticsAndDataPage },
   { path: "/privacy", Component: PrivacyPage },
-  { path: "/analytics-and-privacy", Component: AnalyticsAndPrivacy },
-  { path: "/analytics-vs-privacy", Component: AnalyticsVsPrivacy },
+  { path: "/analytics-and-privacy", Component: AnalyticsAndPrivacyPage },
+  { path: "/analytics-vs-privacy", Component: AnalyticsVsPrivacyPage },
   { path: "/conclusion", Component: ConclusionPage },
   { path: "/about", Component: AboutPage },
 ];
