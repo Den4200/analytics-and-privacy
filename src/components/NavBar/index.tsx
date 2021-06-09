@@ -13,7 +13,7 @@ const navigation = [
   { name: "&", path: "/analytics-and-privacy" },
   { name: "vs", path: "/analytics-vs-privacy" },
   { name: "BLOCK", path: "#" },
-  { name: "Conclusion", path: "#" },
+  { name: "Conclusion", path: "/conclusion" },
 ];
 
 const NavBar = () => (
