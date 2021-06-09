@@ -1,6 +1,7 @@
 import React, { Suspense } from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
+import ScrollToTop from "./ScrollToTop";
 import Loading from "./components/Loading";
 import NavBar from "./components/NavBar";
 
@@ -28,6 +29,8 @@ const routes = [
 
 const App = () => (
   <Router>
+    <ScrollToTop />
+
     <Switch>
       {routes.map(({ path, Component }) => (
         <Route exact key={path} path={path}>
