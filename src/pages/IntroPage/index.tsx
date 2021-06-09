@@ -1,4 +1,6 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
+import { ArrowCircleRightIcon } from "@heroicons/react/outline";
 
 import Modal from "../../components/Modal";
 import dataAnalysisImage from "./data-analysis.png";
@@ -119,7 +121,7 @@ const IndexPage = () => {
         </p>
 
         <h2 className="text-2xl font-bold mt-8 mb-2">Purpose</h2>
-        <p className="text-lg mb-16">
+        <p className="text-lg mb-8">
           I created this website to share my findings from the research I have done to answer one
           question:
           <blockquote className="text-base">
@@ -130,6 +132,14 @@ const IndexPage = () => {
           name of my chosen topic, seen at the top of this page. I will explain what this means in
           the coming pages.
         </p>
+
+        <hr />
+        <div className="flex flex-row m-2">
+          <div className="flex-grow" />
+          <Link to="/analytics-and-data">
+            <ArrowCircleRightIcon className="h-10 w-10 text-gray-700 hover:text-black" />
+          </Link>
+        </div>
       </div>
     </>
   );

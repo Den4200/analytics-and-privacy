@@ -1,4 +1,6 @@
 import { Chart } from "react-google-charts";
+import { Link } from "react-router-dom";
+import { ArrowCircleLeftIcon, ArrowCircleRightIcon } from "@heroicons/react/outline";
 
 import Loading from "../../components/Loading";
 import privacyImage from "./privacy.png";
@@ -127,6 +129,17 @@ const PrivacyPage = () => (
         },
       }}
     />
+
+    <hr />
+    <div className="flex flex-row m-2">
+      <Link to="/analytics-and-data">
+        <ArrowCircleLeftIcon className="h-10 w-10 text-gray-700 hover:text-black" />
+      </Link>
+      <div className="flex-grow" />
+      <Link to="/analytics-and-privacy">
+        <ArrowCircleRightIcon className="h-10 w-10 text-gray-700 hover:text-black" />
+      </Link>
+    </div>
   </div>
 );
 

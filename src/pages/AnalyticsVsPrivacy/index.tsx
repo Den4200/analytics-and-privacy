@@ -1,3 +1,6 @@
+import { Link } from "react-router-dom";
+import { ArrowCircleLeftIcon, ArrowCircleRightIcon } from "@heroicons/react/outline";
+
 import analyticsVsPrivacyImage from "./analytics-vs-privacy.webp";
 
 const AnalyticsVsPrivacy = () => (
@@ -25,6 +28,17 @@ const AnalyticsVsPrivacy = () => (
       build trust with their customers, bringing them more business. Both sides of the spectrum
       will pull each other forward.
     </p>
+
+    <hr />
+    <div className="flex flex-row m-2">
+      <Link to="/analytics-and-privacy">
+        <ArrowCircleLeftIcon className="h-10 w-10 text-gray-700 hover:text-black" />
+      </Link>
+      <div className="flex-grow" />
+      <Link to="/conclusion">
+        <ArrowCircleRightIcon className="h-10 w-10 text-gray-700 hover:text-black" />
+      </Link>
+    </div>
   </div>
 );
 
