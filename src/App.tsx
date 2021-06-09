@@ -11,6 +11,7 @@ const PrivacyPage = React.lazy(() => import("./pages/PrivacyPage"));
 const AnalyticsAndPrivacyPage = React.lazy(() => import("./pages/AnalyticsAndPrivacyPage"));
 const AnalyticsVsPrivacyPage = React.lazy(() => import("./pages/AnalyticsVsPrivacy"));
 const ConclusionPage = React.lazy(() => import("./pages/ConclusionPage"));
+const WorksCitedPage = React.lazy(() => import("./pages/WorksCitedPage"));
 const AboutPage = React.lazy(() => import("./pages/AboutPage"));
 
 const routes = [
@@ -21,6 +22,7 @@ const routes = [
   { path: "/analytics-and-privacy", Component: AnalyticsAndPrivacyPage },
   { path: "/analytics-vs-privacy", Component: AnalyticsVsPrivacyPage },
   { path: "/conclusion", Component: ConclusionPage },
+  { path: "/works-cited", Component: WorksCitedPage },
   { path: "/about", Component: AboutPage },
 ];
 

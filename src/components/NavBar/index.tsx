@@ -15,6 +15,7 @@ const navigation = [
   { name: "vs", path: "/analytics-vs-privacy" },
   { name: "BLOCK", path: "#" },
   { name: "Conclusion", path: "/conclusion" },
+  { name: "Work Cited", path: "/works-cited" },
 ];
 
 const NavBar = () => (
