@@ -57,8 +57,8 @@ const PrivacyPage = () => (
       General Data Protection Regulation (GDPR). It is an EU law on data protection and privacy,
       which sets guidelines for the collection and processing of personal information from
       individuals who live in the European Union. This was implemented by the European Parliament
-      an Council of the European Union in recent years (May 25, 2018) in order to protect the
-      privacy of individuals' data. It is known as the toughest privacy and security law in the
+      and Council of the European Union in recent years (May 25, 2018-present) in order to protect
+      the privacy of individuals' data. It is known as the toughest privacy and security law in the
       world.
     </p>
 

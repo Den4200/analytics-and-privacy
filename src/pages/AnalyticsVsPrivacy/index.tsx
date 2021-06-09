@@ -19,11 +19,11 @@ const AnalyticsVsPrivacy = () => (
 
     <p className="text-lg mt-4 mb-8">
       These laws and regulations will help to ensure that user data and privacy are protected.
-      Going back to an earlier point, this will only drive innovation and privacy forward together,
-      as companies will have to implement privacy protections directly within their technologies in
-      order to follow these laws. This, in turn, will help companies build trust with their
-      customers, bringing them more business. Both sides of the spectrum will pull each other
-      forward.
+      Going back to an earlier point, this will only drive privacy and the usage of analytics and
+      data forward together, as companies will have to implement privacy protections directly
+      within their technologies in order to follow these laws. This, in turn, will help companies
+      build trust with their customers, bringing them more business. Both sides of the spectrum
+      will pull each other forward.
     </p>
   </div>
 );

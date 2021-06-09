@@ -16,7 +16,7 @@ const AboutPage = () => (
     <div className="content-container mx-auto px-8 mt-8">
       <h1 className="text-3xl font-bold mb-2">Hey there, I'm Dennis 👋</h1>
       <p className="text-lg mb-4">
-        I am student living in the United States studying Computer Science, who aspires to be a
+        I am a student living in the United States studying Computer Science, aspiring to be a
         software engineer. I work a lot with user data, both where I volunteer and in my personal
         endeavors. Privacy is something very important to me and the people I work with.
       </p>
@@ -31,7 +31,7 @@ const AboutPage = () => (
         >
           Python Discord
         </a>
-        , I have access to and work with the data of our {">"}200,000 members of our community.
+        , I have access to and work with the data of the {">"}200,000 members in our community.
         With tools such as{" "}
         <a
           href="https://www.cloudflare.com/web-analytics/"
@@ -53,6 +53,14 @@ const AboutPage = () => (
           Metabase
         </a>
         ,{" "}
+        <a
+          href="https://redash.io/"
+          className="hover:underline"
+          style={{ color: "#14b89e" }}
+        >
+          Redash
+        </a>
+        ,{" "}
         <a href="https://sentry.io/" className="hover:underline" style={{ color: "#14b89e" }}>
           Sentry
         </a>
@@ -66,8 +74,8 @@ const AboutPage = () => (
         </a>
         , and many others, we are able to visualize and analyze the data we collect on our users to
         better improve our community and services. We only collect data we deem necessary to
-        function as a community, whether it be for moderation purposes, to track bugs in our
-        projects, or for general improvements such as channel structure.
+        function as an organization, whether it be for moderation purposes, to track bugs in our
+        projects, or for general improvements in our server, such as channel structure.
       </p>
       <p className="text-lg mb-4">
         With all the data we collect, we must comply with data privacy laws and regulations around
@@ -87,7 +95,7 @@ const AboutPage = () => (
       <p className="text-lg mb-8">
         Not only do I work with data at Python Discord, I also do so in personal endeavors. For
         example, my friends and I chat in our own Discord server, where I collect metrics on them
-        and their messages sent. Graphs of some of the data collected were shown on the homepage.
+        and their messages sent. A few graphs of the data collected were shown on the homepage.
         It's quite interesting to see our messaging habits in each channel during different hours
         of the day, which channel is most popular, who talks the most in each channel, etc. We have
         gained a lot of insight into what happens around the server.
