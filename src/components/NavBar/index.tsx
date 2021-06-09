@@ -4,6 +4,7 @@ import { Disclosure } from "@headlessui/react";
 import { MenuIcon, XIcon } from "@heroicons/react/outline";
 
 import logo from "../../logo.png";
+import meImage from "./me-transparent-min.png";
 
 const navigation = [
   { name: "Introduction", path: "/introduction" },
@@ -60,6 +61,11 @@ const NavBar = () => (
                 </div>
               </div>
             </div>
+
+            <Link to="/about" className="absolute right-0 text-sm text-gray-300 hover:bg-gray-700 hover:text-white rounded-md sm:px-3 px-1 py-1">
+              <img src={meImage} alt="" className="inline-block rounded-full h-8 w-8" />
+              <span className="hidden sm:inline-block ml-2">About Me</span>
+            </Link>
           </div>
         </div>
 
