@@ -1,3 +1,6 @@
+import { Link } from "react-router-dom";
+import { ArrowCircleLeftIcon, ArrowCircleRightIcon } from "@heroicons/react/outline";
+
 import conclusionImage from "./conclusion.png";
 
 const ConclusionPage = () => (
@@ -25,6 +28,17 @@ const ConclusionPage = () => (
       website, be sure to read through what terms you are accepting before clicking that button to
       continue through.
     </p>
+
+    <hr />
+    <div className="flex flex-row m-2">
+      <Link to="/analytics-vs-privacy">
+        <ArrowCircleLeftIcon className="h-10 w-10 text-gray-700 hover:text-black" />
+      </Link>
+      <div className="flex-grow" />
+      <Link to="/works-cited">
+        <ArrowCircleRightIcon className="h-10 w-10 text-gray-700 hover:text-black" />
+      </Link>
+    </div>
   </div>
 );
 

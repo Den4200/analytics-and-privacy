@@ -1,3 +1,6 @@
+import { Link } from "react-router-dom";
+import { ArrowCircleLeftIcon, ArrowCircleRightIcon } from "@heroicons/react/outline";
+
 import analyticsAndDataImage from "./analytics-and-data.png";
 
 const AnalyticsAndDataPage = () => (
@@ -61,6 +64,17 @@ const AnalyticsAndDataPage = () => (
       the third-party data was collected, and companies who use it may be put at risk of breaching
       data privacy regulations.
     </p>
+
+    <hr />
+    <div className="flex flex-row m-2">
+      <Link to="/introduction">
+        <ArrowCircleLeftIcon className="h-10 w-10 text-gray-700 hover:text-black" />
+      </Link>
+      <div className="flex-grow" />
+      <Link to="/privacy">
+        <ArrowCircleRightIcon className="h-10 w-10 text-gray-700 hover:text-black" />
+      </Link>
+    </div>
   </div>
 );
 

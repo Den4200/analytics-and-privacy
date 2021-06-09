@@ -1,3 +1,6 @@
+import { Link } from "react-router-dom";
+import { ArrowCircleLeftIcon } from "@heroicons/react/outline";
+
 import "./works_cited.css";
 
 const WorksCitedPage = () => (
@@ -39,6 +42,11 @@ const WorksCitedPage = () => (
       Research, Elsevier, 18 May 2019,
       http://www.sciencedirect.com/science/article/pii/S0148296319303078.
     </p>
+
+    <hr className="mt-4" />
+    <Link to="/conclusion">
+      <ArrowCircleLeftIcon className="h-10 w-10 m-2 text-gray-700 hover:text-black" />
+    </Link>
   </div>
 );
 

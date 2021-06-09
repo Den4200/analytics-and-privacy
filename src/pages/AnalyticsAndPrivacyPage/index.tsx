@@ -1,3 +1,6 @@
+import { Link } from "react-router-dom";
+import { ArrowCircleLeftIcon, ArrowCircleRightIcon } from "@heroicons/react/outline";
+
 import analytiscAndPrivacyImage from "./analytics-and-privacy.png";
 
 const AnalyticsAndPrivacyPage = () => (
@@ -65,6 +68,17 @@ const AnalyticsAndPrivacyPage = () => (
       protection all around the world. In turn, with more privacy, consumers and end-users will
       trust these companies much more, bringing them more business.
     </p>
+
+    <hr />
+    <div className="flex flex-row m-2">
+      <Link to="/privacy">
+        <ArrowCircleLeftIcon className="h-10 w-10 text-gray-700 hover:text-black" />
+      </Link>
+      <div className="flex-grow" />
+      <Link to="/analytics-vs-privacy">
+        <ArrowCircleRightIcon className="h-10 w-10 text-gray-700 hover:text-black" />
+      </Link>
+    </div>
   </div>
 );
 
