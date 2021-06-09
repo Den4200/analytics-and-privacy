@@ -36,9 +36,11 @@ const IndexPage = () => (
             Introduction
           </button>
         </Link>
-        <button className="hover:bg-white hover:text-indigo-600 hover:border-indigo-600 ml-3 sm:ml-6 bg-transparent transition duration-150 ease-in-out focus:outline-none hover:bg-indigo-700-800 rounded border border-white text-white px-4 sm:px-8 py-1 sm:py-3 text-sm">
-          Something?
-        </button>
+        <Link to="/about">
+          <button className="hover:bg-white hover:text-indigo-600 hover:border-indigo-600 ml-3 sm:ml-6 bg-transparent transition duration-150 ease-in-out focus:outline-none hover:bg-indigo-700-800 rounded border border-white text-white px-4 sm:px-8 py-1 sm:py-3 text-sm">
+            About Me
+          </button>
+        </Link>
       </div>
     </div>
 
